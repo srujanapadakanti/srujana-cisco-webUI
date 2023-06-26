@@ -4,5 +4,5 @@ services:
     image: ashu-web:app$BUILD_NUMBER
     build: .
     container_name: ashuc1
-    ports:
-    - 1234:80 
+    ports: # choose 1024 to 6000
+    - 1990:80 
